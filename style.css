@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/**
+ * Theme Name:		mach-politik.ch (Twenty Twelve)
+ * Description:		Child Theme basierend auf Twenty Twelve, angepasst für mach-politik.ch
+ * Template:		twentytwelve
+ * Version:		0.1.0
+ * License:		CC BY-SA 4.0
+ * License URI:		https://creativecommons.org/licenses/by-sa/4.0/deed.de
+ */
+
+@import url('../twentytwelve/style.css');
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot');
+    src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://mach-politik.ch/font/notosans-regular-webfont.woff2') format('woff2'),
+         url('https://mach-politik.ch/font/notosans-regular-webfont.woff') format('woff'),
+         url('https://mach-politik.ch/font/notosans-regular-webfont.ttf') format('truetype'),
+         url('https://mach-politik.ch/font/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: "Noto Sans", sans !important;
+	line-height: 0;
+	color: #000000;
+	background-color: #21759b;
+}
+#global-bar {
+	line-height: 2;
+	text-align: center;
+}
+#global-bar a {
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	margin: 8px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#page {
+	clear: both;
+}
+.site-header {
+	background-color: #ffffff;
+	padding: 0;
+}
+img.header-image {
+	box-shadow: none;
+	border-radius: 0;
+}
+.entry-header {
+	margin-bottom: 0.5rem;
+}
+.entry-header .entry-title {
+	color: #279;
+}
+.entry-content h1,
+.comment-content h1,
+.entry-content h2,
+.comment-content h2,
+.entry-content h3,
+.comment-content h3,
+.entry-content h4,
+.comment-content h4,
+.entry-content h5,
+.comment-content h5,
+.entry-content h6,
+.comment-content h6 {
+	margin: 24px 0 12px;
+}
+.comment-content table {
+	color: #333;
+}
+@media screen and (min-width: 600px) {
+	#global-bar .left {
+		float: left;
+	}
+	#global-bar .right {
+		float: right;
+	}
+	.main-navigation ul {
+		padding: 0 5px;
+	}
+	.main-navigation li a {
+		color: #279;
+	}
+	.main-navigation li {
+		margin-right: 2rem;
+	}
+	.main-navigation li ul li a:hover {
+		color: #000;
+	}
+	.main-navigation .current-menu-item > a,
+	.main-navigation .current-menu-ancestor > a,
+	.main-navigation .current_page_item > a,
+	.main-navigation .current_page_ancestor > a {
+		color: #000;
+	}
+}
+@media screen and (min-width: 960px) {
+	body .site {
+		padding: 0;
+		margin-top: 0;
+		box-shadow: none;
+	}
+	#main {
+		padding: 0 40px;
+		padding: 0 2.857142857rem;
+	}
+}
+.site-info {
+	margin-left: 40px;
+}
