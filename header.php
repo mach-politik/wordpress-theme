@@ -70,7 +70,7 @@
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</hgroup>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img alt="Logo Mach-Politik.ch" width="960" height="250" src="<?php echo get_template_directory_uri(); ?>/images/logo-B-2farbig-halbkreis-header-web.svg"
+				<img alt="Logo Mach-Politik.ch" width="960" height="250" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-B-2farbig-halbkreis-header-web.svg"
 				</a>
 				<nav id="site-navigation" class="main-navigation" role="navigation">
 					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>

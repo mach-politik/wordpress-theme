@@ -13,7 +13,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" rel="license" target="_blank">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/CC-BY-SA_icon.svg" alt="Creative Commons" />
+			<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/CC-BY-SA_icon.svg" alt="Creative Commons" />
 			</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
