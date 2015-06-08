@@ -12,8 +12,9 @@
 	</div><!-- #main .wrapper -->
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
-			<!-- =Individual by mach-politik.ch -->
-			<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" rel="license" target="_blank"><img src="/wp-content/uploads/2014/03/Creative_Commons_20t.png" alt="Creative Commons" /></a>
+			<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.de" rel="license" target="_blank">
+				<img src="../images/CC-BY-SA_icon.svg" alt="Creative Commons" />
+			</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
