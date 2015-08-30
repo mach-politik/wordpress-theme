@@ -40,6 +40,10 @@ body {
 	font-weight: bold;
 	text-decoration: none;
 }
+#logo-mp{
+	max-width: 100%;
+	height: auto;
+}
 #page {
 	clear: both;
 }
