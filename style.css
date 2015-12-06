@@ -76,6 +76,14 @@ img.header-image {
 	color: rgb(60, 60, 60);
 	color: rgba(60, 60, 60, .6);
 }
+#masthead img{
+	top: -2px;
+	left: -30px;
+	position: relative;
+}
+.site-info {
+	margin-left: 40px;
+}
 @media screen and (min-width: 600px) {
 	#global-bar .left {
 		float: left;
@@ -112,7 +120,9 @@ img.header-image {
 		padding: 0 40px;
 		padding: 0 2.857142857rem;
 	}
-}
-.site-info {
-	margin-left: 40px;
+	#masthead img{
+		top: initial;
+		left: initial;
+		position: initial;
+	}
 }
