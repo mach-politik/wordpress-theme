@@ -4,7 +4,7 @@
  * Theme Name:		mach-politik.ch (Twenty Twelve)
  * Description:		Child Theme basierend auf Twenty Twelve, angepasst für mach-politik.ch
  * Template:		twentytwelve
- * Version:		0.1.0
+ * Version:		0.2.0
  * License:		CC BY-SA 4.0
  * License URI:		https://creativecommons.org/licenses/by-sa/4.0/deed.de
  */
@@ -13,12 +13,12 @@
 
 @font-face {
 	font-family: 'Noto Sans';
-	src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot');
-	src: url('https://mach-politik.ch/font/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('https://mach-politik.ch/font/notosans-regular-webfont.woff2') format('woff2'),
-		 url('https://mach-politik.ch/font/notosans-regular-webfont.woff') format('woff'),
-		 url('https://mach-politik.ch/font/notosans-regular-webfont.ttf') format('truetype'),
-		 url('https://mach-politik.ch/font/notosans-regular-webfont.svg#noto_sansregular') format('svg');
+	src: url('/font/notosans-regular-webfont.eot');
+	src: url('/font/notosans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('/font/notosans-regular-webfont.woff2') format('woff2'),
+		url('/font/notosans-regular-webfont.woff') format('woff'),
+		url('/font/notosans-regular-webfont.ttf') format('truetype'),
+		url('/font/notosans-regular-webfont.svg#noto_sansregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -26,8 +26,8 @@
 body {
 	font-family: "Noto Sans", sans !important;
 	line-height: 0;
-	color: #000000;
-	background-color: #21759b;
+	color: rgb(60, 60, 60);
+	background-color: rgb(110, 196, 233);
 }
 #global-bar {
 	line-height: 2;
@@ -40,15 +40,11 @@ body {
 	font-weight: bold;
 	text-decoration: none;
 }
-#logo-mp{
-	max-width: 100%;
-	height: auto;
-}
 #page {
 	clear: both;
 }
 .site-header {
-	background-color: #ffffff;
+	background-color: #fff;
 	padding: 0;
 }
 img.header-image {
@@ -59,7 +55,8 @@ img.header-image {
 	margin-bottom: 0.5rem;
 }
 .entry-header .entry-title {
-	color: #279;
+	color: rgb(110, 196, 233);
+
 }
 .entry-content h1,
 .comment-content h1,
@@ -76,7 +73,8 @@ img.header-image {
 	margin: 24px 0 12px;
 }
 .comment-content table {
-	color: #333;
+	color: rgb(60, 60, 60);
+	color: rgba(60, 60, 60, .6);
 }
 @media screen and (min-width: 600px) {
 	#global-bar .left {
@@ -101,7 +99,7 @@ img.header-image {
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
-		color: #000;
+		color: rgb(60, 60, 60);
 	}
 }
 @media screen and (min-width: 960px) {
