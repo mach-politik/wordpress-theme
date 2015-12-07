@@ -29,17 +29,6 @@ body {
 	color: rgb(60, 60, 60);
 	background-color: rgb(110, 196, 233);
 }
-#global-bar {
-	line-height: 2;
-	text-align: center;
-}
-#global-bar a {
-	color: rgb(0, 0, 0);
-	font-size: 16px;
-	margin: 8px;
-	font-weight: bold;
-	text-decoration: none;
-}
 #page {
 	clear: both;
 }
@@ -96,12 +85,6 @@ img.header-image {
 	margin-left: 40px;
 }
 @media screen and (min-width: 600px) {
-	#global-bar .left {
-		float: left;
-	}
-	#global-bar .right {
-		float: right;
-	}
 	.main-navigation ul {
 		padding: 0 5px;
 	}

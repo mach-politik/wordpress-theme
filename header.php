@@ -53,16 +53,6 @@
 </head>
 
 	<body <?php body_class(); ?>>
-		<nav id="global-bar">
-			<div class="left">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Hauptseite</a>
-				<a href="/projekte/projects/projekte">Projekte</a>
-			</div>
-			<div class="right">
-				<a href="/projekte/login">Login</a>
-				<a href="/projekte/account/register">Registrieren</a>
-			</div>
-		</nav>
 		<div id="page" class="hfeed site">
 			<header id="masthead" class="site-header" role="banner">
 				<nav id="site-navigation" class="main-navigation" role="navigation">
