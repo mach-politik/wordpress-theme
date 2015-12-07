@@ -67,19 +67,29 @@ img.header-image {
 	color: rgb(60, 60, 60);
 	color: rgba(60, 60, 60, .6);
 }
-#logo-mp {
-	display: block;
+#masthead {
+	background-image: -webkit-linear-gradient(rgb(110, 196, 233) 50%, white 50%);
 	background-image: linear-gradient(rgb(110, 196, 233) 50%, white 50%);
 }
-#logo-mp img {
-	display: block;
+#logo-mp {
 	margin: auto;
+	padding: 2px;
 	max-width: 200px;
 	width: 100%;
 	height: auto;
+}
+#logo-mp a {
+	display: block;
 	border-radius: 50%;
-	border: white 2px solid;
+}
+#logo-mp img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	border: white 3px solid;
 	box-shadow: 0 0 0 2px rgb(60, 60, 60);
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 .site-info {
 	margin-left: 40px;
@@ -101,6 +111,10 @@ img.header-image {
 	.main-navigation .current-menu-ancestor > a,
 	.main-navigation .current_page_item > a,
 	.main-navigation .current_page_ancestor > a {
+		color: rgb(60, 60, 60);
+	}
+	.site-header h1, .site-header h2 {
+		text-align: center;
 		color: rgb(60, 60, 60);
 	}
 }

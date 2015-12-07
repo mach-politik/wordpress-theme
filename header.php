@@ -54,18 +54,20 @@
 
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
+				<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
+				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+			</nav><!-- #site-navigation -->
 			<header id="masthead" class="site-header" role="banner">
-				<nav id="site-navigation" class="main-navigation" role="navigation">
-					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
-					<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
-					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-				</nav><!-- #site-navigation -->
 				<hgroup>
-					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+					<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</hgroup>
-				<a id="logo-mp" href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
-				</a>
+				<div id="logo-mp">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+						<img alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
+					</a>
+				</div>
 			</header><!-- #masthead -->
 			<div id="main" class="wrapper">
