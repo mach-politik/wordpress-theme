@@ -82,6 +82,11 @@ img.header-image {
 	position: relative;
 }
 #logo-mp {
+	display: block;
+	background-image: linear-gradient(rgb(110, 196, 233) 50%, white 50%);
+}
+#logo-mp img {
+	display: block;
 	margin: auto;
 	max-width: 200px;
 	width: 100%;

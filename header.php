@@ -74,8 +74,8 @@
 					<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</hgroup>
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img id="logo-mp" alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
+				<a id="logo-mp" href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<img alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
 				</a>
 			</header><!-- #masthead -->
 			<div id="main" class="wrapper">
