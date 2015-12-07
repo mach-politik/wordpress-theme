@@ -81,6 +81,15 @@ img.header-image {
 	left: -30px;
 	position: relative;
 }
+#logo-mp {
+	margin: auto;
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	border: white 2px solid;
+	box-shadow: 0 0 0 2px rgb(60, 60, 60);
+}
 .site-info {
 	margin-left: 40px;
 }

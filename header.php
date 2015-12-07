@@ -75,7 +75,7 @@
 					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 				</hgroup>
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img id="logo-mp" alt="Logo Mach-Politik.ch" width="960" height="250" src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-B-2farbig-halbkreis-header-web.svg">
+				<img id="logo-mp" alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
 				</a>
 			</header><!-- #masthead -->
 			<div id="main" class="wrapper">
