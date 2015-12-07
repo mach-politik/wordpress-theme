@@ -23,27 +23,27 @@
 	<meta name="viewport" content="width=device-width" />
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<link rel="apple-touch-icon" sizes="57x57" href="https://mach-politik.ch/favicon/apple-touch-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="https://mach-politik.ch/favicon/apple-touch-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="https://mach-politik.ch/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="https://mach-politik.ch/favicon/apple-touch-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="https://mach-politik.ch/favicon/apple-touch-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="https://mach-politik.ch/favicon/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="https://mach-politik.ch/favicon/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="https://mach-politik.ch/favicon/apple-touch-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="https://mach-politik.ch/favicon/apple-touch-icon-180x180.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon-180x180.png">
 	<meta name="apple-mobile-web-app-title" content="mach-politik.ch">
-	<link rel="shortcut icon" href="https://mach-politik.ch/favicon/favicon.ico" />
-	<link rel="icon" type="image/png" href="https://mach-politik.ch/favicon/favicon-192x192.png" sizes="192x192">
-	<link rel="icon" type="image/png" href="https://mach-politik.ch/favicon/favicon-160x160.png" sizes="160x160">
-	<link rel="icon" type="image/png" href="https://mach-politik.ch/favicon/favicon-96x96.png" sizes="96x96">
-	<link rel="icon" type="image/png" href="https://mach-politik.ch/favicon/favicon-16x16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="https://mach-politik.ch/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="shortcut icon" href="/favicon/favicon.ico" />
+	<link rel="icon" type="image/png" href="/favicon/favicon-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="/favicon/favicon-160x160.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" sizes="32x32">
 	<meta name="msapplication-TileColor" content="#87ceeb">
-	<meta name="msapplication-TileImage" content="https://mach-politik.ch/favicon/mstile-144x144.png">
+	<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
 	<meta name="application-name" content="mach-politik.ch">
 	<meta name="msapplication-TileColor" content="#87ceeb">
-	<meta name="msapplication-TileImage" content="https://mach-politik.ch/favicon/mstile-144x144.png">
+	<meta name="msapplication-TileImage" content="/favicon/mstile-144x144.png">
 	<meta name="application-name" content="mach-politik.ch">
 	<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
 	<!--[if lt IE 9]>
@@ -55,12 +55,12 @@
 	<body <?php body_class(); ?>>
 		<nav id="global-bar">
 			<div class="left">
-				<a href="https://mach-politik.ch">Hauptseite</a>
-				<a href="https://mach-politik.ch/projekte/projects/projekte">Projekte</a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">Hauptseite</a>
+				<a href="/projekte/projects/projekte">Projekte</a>
 			</div>
 			<div class="right">
-				<a href="https://mach-politik.ch/projekte/login">Login</a>
-				<a href="https://mach-politik.ch/projekte/account/register">Registrieren</a>
+				<a href="/projekte/login">Login</a>
+				<a href="/projekte/account/register">Registrieren</a>
 			</div>
 		</nav>
 		<div id="page" class="hfeed site">
