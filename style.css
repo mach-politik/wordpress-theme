@@ -54,9 +54,11 @@ img.header-image {
 .entry-header {
 	margin-bottom: 0.5rem;
 }
+.main-navigation {
+	margin-top: 0;
+}
 .entry-header .entry-title {
 	color: rgb(110, 196, 233);
-
 }
 .entry-content h1,
 .comment-content h1,
