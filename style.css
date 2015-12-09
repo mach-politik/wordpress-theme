@@ -98,6 +98,15 @@ article.format-aside .aside {
 	background: none;
 	border-left: 11px solid rgb(0,156,0);
 }
+a:link {
+	color: rgb(0, 73, 135);
+}
+a:visited {
+	color: rgb(40, 141, 193);
+}
+a:hover, a:active, a:focus {
+	color: rgb(255, 76, 0);
+}
 @media screen and (min-width: 600px) {
 	.main-navigation ul {
 		padding: 0 5px;
