@@ -15,7 +15,7 @@
 	font-family: 'Noto Sans';
 	src: url('/font/notosans-regular-webfont.woff2'),
 		url('/font/notosans-regular-webfont.woff'),
-		url('/font/notosans-regular-webfont.ttf'),
+		url('/font/notosans-regular-webfont.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,7 +23,7 @@
 	font-family: 'Noto Sans';
 	src: url('/font/notosans-bold-webfont.woff2'),
 		url('/font/notosans-bold-webfont.woff'),
-		url('/font/notosans-bold-webfont.ttf'),
+		url('/font/notosans-bold-webfont.ttf');
 	font-weight: bold;
 	font-style: normal;
 }
@@ -31,7 +31,7 @@
 	font-family: 'Noto Sans';
 	src: url('/font/notosans-italic-webfont.woff2'),
 		url('/font/notosans-italic-webfont.woff'),
-		url('/font/notosans-italic-webfont.ttf'),
+		url('/font/notosans-italic-webfont.ttf');
 	font-weight: normal;
 	font-style: italic;
 }
@@ -39,11 +39,10 @@
 	font-family: 'Noto Sans';
 	src: url('/font/notosans-bolditalic-webfont.woff2'),
 		url('/font/notosans-bolditalic-webfont.woff'),
-		url('/font/notosans-bolditalic-webfont.ttf'),
+		url('/font/notosans-bolditalic-webfont.ttf');
 	font-weight: bold;
 	font-style: italic;
 }
-
 body {
 	font-family: "Noto Sans", sans !important;
 	line-height: 0;
