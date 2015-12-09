@@ -23,6 +23,7 @@
 	<meta name="viewport" content="width=device-width" />
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 	<link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-touch-icon-114x114.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png">
@@ -52,22 +53,22 @@
 	<?php wp_head(); ?>
 </head>
 
-	<body <?php body_class(); ?>>
-		<div id="page" class="hfeed site">
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
-				<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
-			</nav><!-- #site-navigation -->
-			<header id="masthead" class="site-header" role="banner">
-				<hgroup>
-					<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				</hgroup>
-				<div id="logo-mp">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-						<img alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
-					</a>
-				</div>
-			</header><!-- #masthead -->
-			<div id="main" class="wrapper">
+<body <?php body_class(); ?>>
+	<div id="page" class="hfeed site">
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
+			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+		</nav><!-- #site-navigation -->
+		<header id="masthead" class="site-header" role="banner">
+			<hgroup>
+				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			</hgroup>
+			<div id="logo-mp">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+					<img alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
+				</a>
+			</div>
+		</header><!-- #masthead -->
+		<div id="main" class="wrapper">
