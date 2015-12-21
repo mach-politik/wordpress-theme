@@ -111,6 +111,9 @@ img.header-image {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+.site {
+	max-width: none;
+}
 .site-info {
 	margin-left: 40px;
 }
