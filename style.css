@@ -66,6 +66,9 @@ img.header-image {
 .main-navigation {
 	margin-top: 0;
 }
+#menu-hauptmenue {
+	border: none;
+}
 #menu-hauptmenue .home a {
 	text-transform: none;
 	font-size: 1.2em;
