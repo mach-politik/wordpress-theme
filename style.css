@@ -97,8 +97,11 @@ img.header-image {
 	color: rgba(60, 60, 60, .6);
 }
 #masthead {
-	background-image: -webkit-linear-gradient(rgb(110, 196, 233) 50%, white 50%);
-	background-image: linear-gradient(rgb(110, 196, 233) 50%, white 50%);
+	background-image: -webkit-linear-gradient(rgb(110, 196, 233) 75%, white 75%);
+	background-image: linear-gradient(rgb(110, 196, 233) 75%, white 75%);
+}
+#masthead hgroup {
+	padding: 3em 0;
 }
 #logo-mp {
 	margin: auto;
@@ -119,6 +122,7 @@ img.header-image {
 	box-shadow: 0 0 0 2px rgb(60, 60, 60);
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
 }
 .site {
 	max-width: none;
