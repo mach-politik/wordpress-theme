@@ -43,6 +43,9 @@
 	font-weight: bold;
 	font-style: italic;
 }
+html {
+	font-size: 100%;
+}
 body {
 	font-family: "Noto Sans", sans !important;
 	line-height: 0;
@@ -101,6 +104,7 @@ img.header-image {
 	background-image: linear-gradient(rgb(110, 196, 233) 75%, white 75%);
 }
 #masthead hgroup {
+	font-size: 2rem;
 	padding: 3em 0;
 }
 #logo-mp {
@@ -165,6 +169,12 @@ a:hover, a:active, a:focus {
 	.site-header h1, .site-header h2 {
 		text-align: center;
 		color: rgb(60, 60, 60);
+	}
+	.site-header h1 {
+		font-size: 3rem;
+	}
+	.site-header h2 {
+		font-size: 1rem;
 	}
 }
 @media screen and (min-width: 960px) {
