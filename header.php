@@ -61,14 +61,20 @@
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
 		<header id="masthead" class="site-header" role="banner">
-			<hgroup>
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</hgroup>
-			<div id="logo-mp">
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-					<img alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
-				</a>
+			<div class="header-left">
+			</div>
+			<div class="header-center">
+				<hgroup>
+					<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+					<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+				</hgroup>
+				<div id="logo-mp">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
+						<img alt="Logo Mach-Politik.ch" src="<?php echo get_stylesheet_directory_uri(); ?>/images/signet-B-2farbig.svg">
+					</a>
+				</div>
+			</div>
+			<div class="header-right">
 			</div>
 		</header><!-- #masthead -->
 		<div id="main" class="wrapper">

@@ -107,6 +107,13 @@ img.header-image {
 	font-size: 2rem;
 	padding: 1.5em 0;
 }
+#masthead .header-left,
+#masthead .header-center,
+#masthead .header-right {
+	display: inline-block;
+	width: 33.333%;
+	width: calc(100% / 3);
+}
 #logo-mp {
 	margin: auto;
 	padding: 2px;
