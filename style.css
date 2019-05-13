@@ -69,6 +69,14 @@ img.header-image {
 .main-navigation {
 	margin-top: 0;
 }
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	display: block;
+}
+.main-navigation ul.nav-menu.toggled-on,
+.menu-toggle {
+	display: none;
+}
 #menu-hauptmenue {
 	border: none;
 }
